@@ -149,31 +149,62 @@ form button:active {
 }
 
 /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
+        margin-bottom: 10px; /* Tambahkan margin bawah */
+    }
+
+    nav {
+        padding: 10px 0; /* Padding lebih kecil */
     }
 
     nav a {
         display: block;
-        margin: 10px 0;
+        margin: 8px 0; /* Margin lebih kecil */
+        font-size: 1rem; /* Ukuran font lebih kecil */
+        padding: 8px 0; /* Tambahkan padding untuk area klik yang lebih besar */
     }
 
     section {
         padding: 15px;
         margin: 10px auto;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     section h2 {
         font-size: 1.5rem;
+        text-align: center; /* Judul section tetap di tengah */
+        margin-bottom: 15px; /* Margin bawah lebih besar */
     }
 
     table {
         font-size: 0.9rem;
+        width: 100%; /* Pastikan tabel memenuhi lebar container */
+    }
+
+    table th,
+    table td {
+        padding: 10px; /* Padding lebih kecil */
+    }
+
+    ul {
+        padding-left: 20px; /* Tambahkan padding kiri untuk daftar */
     }
 
     ul li {
         font-size: 1rem;
+        margin: 10px 0; /* Margin lebih konsisten */
+        text-align: justify; /* Teks rata kanan kiri */
+    }
+
+    form {
+        max-width: 100%; /* Form memenuhi lebar container */
+    }
+
+    form label {
+        font-size: 0.9rem; /* Ukuran font lebih kecil */
     }
 
     form input,
@@ -181,9 +212,14 @@ form button:active {
     form button {
         padding: 10px;
         font-size: 0.9rem;
+        width: 100%; /* Pastikan input memenuhi lebar container */
+    }
+
+    form button {
+        font-size: 1rem; /* Ukuran font tombol lebih besar */
+        padding: 12px; /* Padding lebih besar untuk tombol */
     }
 }
-
 @media (min-width: 769px) and (max-width: 1024px) {
     header h1 {
         font-size: 2.2rem;
