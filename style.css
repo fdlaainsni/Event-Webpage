@@ -1,3 +1,4 @@
+/* CSS umum */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -148,8 +149,7 @@ form button:active {
     background-color: #004085;
 }
 
-/* Responsive Design */
-/* Responsive Design */
+/* Media query */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
